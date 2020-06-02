@@ -196,6 +196,16 @@
     </profile>
 
     <profile>
+      <id>distro-starter</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+        <module>distro/spring-boot-starter</module>
+      </modules>
+    </profile>
+
+    <profile>
       <!-- profile for running process-engine unit tests in QA -->
       <id>check-engine</id>
       <modules>
